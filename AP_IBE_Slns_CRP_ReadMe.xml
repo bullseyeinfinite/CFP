@@ -1,0 +1,30 @@
+<IBE>
+-	CRP - solution name is not correct i have given as CFPSln - it should be CFPSystems or Blog
+
+	<CFP>
+	- Create CFP Project in Github (bullseyeinfinite@gmail.com)
+	- Create C:\IBE\Slns\CFP folder for CFP Project
+	- Login GithubDesktop and pull the CFP recently created in Github
+
+	- Create CFP.Web Project
+		-	Solution - CFPSln
+		-	Project Type C# > ASP.Net Core Web Application (Dot Net Framework)
+			-	MVC Type
+		- Check and run from IISExpress
+		
+	- Create CFP.BusinessLayer Project
+		- C# - Class Library
+
+	</CFP>
+	
+	cd "C:\Program Files\MySQL\MySQL Server 8.0\bin"
+	mysqld --init-file=C:\\IBE\\IBE_GD\\IBE_GD\\Poov\\mysql-init.txt
+		ALTER USER 'root'@'localhost' IDENTIFIED BY 'Vedant2020';
+	
+	"C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld" --install"
+	Start --> services --> MySQL(ver) --> Right-Click --> Start
+	
+
+	
+
+</IBE>
